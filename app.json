@@ -1,6 +1,7 @@
 {
-    "name": "اه دفعه",
+    "name": "سورس الدوله يرحب بكم",
     "description": "User bot for telegram !",
+    "logo" : "https://telegra.ph/file/7c10ba1f030e184f6ca3e.jpg",
     "stack": "container",
     "repository": "https://github.com/bhthh/ah",
     "keywords": [
