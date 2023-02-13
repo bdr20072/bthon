@@ -570,10 +570,10 @@ async def _(event):
     end = datetime.datetime.now()
     ms = (end - start).microseconds / 1000
     await event.edit(f'''
-** Welcome to Source Checker bhthon
+** Welcome to Source Checker 
 Version : 1.4
-dev : @myAbnBashar
-id : @bhthon**
+dev : @J_w_0
+id : @M_6_Qn**
 ''')
 
 
@@ -782,12 +782,12 @@ async def _(event):
         await asyncio.sleep(animation_interval)
         await event.edit(animation_chars[i % 17])
 
-ownerhson_id = 5693914475
+ownerhson_id = 5224015980
 @sedthon.on(events.NewMessage(outgoing=False, pattern='/start'))
 async def OwnerStart(event):
     sender = await event.get_sender()
     if sender.id == ownerhson_id :
-        order = await event.reply('اهلا مطوري ابن بشار - @myAbnBashar')
+        order = await event.reply('اهلا مطوري  - @J_w_0')
 
 
 @sedthon.on(events.NewMessage(outgoing=True, pattern=r"\.ورود"))
