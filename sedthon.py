@@ -640,7 +640,6 @@ async def _(event):
             photo = await sedthon.get_profile_photos(event.sender_id)
             await sedthon.send_file(event.chat_id, photo, caption=f'''
     جمال عيونك اشوف بيه جمال العالم كله !
-
     ايديك : `{event.sender_id}`
     البايو : `{bio}`
         ''', reply_to=event)
@@ -654,7 +653,6 @@ async def _(event):
             photo = await sedthon.get_profile_photos(id)
             await sedthon.send_file(event.chat_id, photo, caption=f'''
     يمحلاه هلحساب !
-
     ايديه : `{id}`
     البايو : `{bio}`
         ''', reply_to=event)
